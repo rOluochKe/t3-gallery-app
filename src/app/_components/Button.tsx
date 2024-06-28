@@ -5,9 +5,10 @@ interface ButtonProps {
   onClick?: () => void;
   variant?: 'default' | 'active' | 'hover';
   width?: string;
+  type?: 'button' | 'submit' | 'reset';
 }
 
-const Button: React.FC<ButtonProps> = ({ children, onClick, variant = 'default', width }) => {
+const Button: React.FC<ButtonProps> = ({ children, onClick, variant = 'default', width, type }) => {
   const baseStyles = 'text-light rounded-lg px-4 py-2';
   const variantStyles = {
     default: 'bg-transparent',
@@ -20,6 +21,7 @@ const Button: React.FC<ButtonProps> = ({ children, onClick, variant = 'default',
       className={`${baseStyles} ${variantStyles[variant]}`}
       onClick={onClick}
       style={{ width }}
+      type={type}
     >
       {children}
     </button>

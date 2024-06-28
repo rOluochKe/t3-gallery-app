@@ -8,8 +8,8 @@ interface HeadingProps {
 const Heading: React.FC<HeadingProps> = ({ title, subtitle }) => {
   return (
     <div className="text-left my-8">
-      <h1 className="text-light text-3xl font-bold">{title}</h1>
-      <h2 className="text-accent text-xl mt-2">{subtitle}</h2>
+      <h3 className="text-light text-2xl font-bold">{title}</h3>
+      <h4 className="text-accent text-lg">{subtitle}</h4>
     </div>
   );
 };

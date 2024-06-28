@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import NavBar from "~/app/_components/NavBar";
+import Button from '~/app/_components/Button';
 
 export default function AppLayout({
   children,
@@ -24,12 +25,13 @@ export default function AppLayout({
         </aside>
       )}
       <main className="flex-1 bg-background p-9 overflow-y-auto">
-        <button
+        <Button
+          type='button'
           onClick={toggleNavBar}
-          className="mb-4 bg-accent text-light px-4 py-2 rounded-lg"
+          variant="hover"
         >
           {isNavBarOpen ? 'Hide Menu' : 'Show Menu'}
-        </button>
+        </Button>
         {children}
       </main>
     </div>

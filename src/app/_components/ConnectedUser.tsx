@@ -1,5 +1,5 @@
 import React from 'react';
-import UserAvatar from './UserAvatar';
+import UserAvatar from '~/app/_components/UserAvatar';
 
 interface ConnectedUserProps {
   avatarText: string;

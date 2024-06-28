@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Button from './Button';
+import Button from '~/app/_components/Button';
 
 const NavBar: React.FC = () => {
   const pathname = usePathname();
@@ -14,6 +14,7 @@ const NavBar: React.FC = () => {
       <div className="flex flex-col items-center justify-center space-y-4 h-full w-full">
         <Link href="/" className="w-full flex justify-center group">
           <Button
+            type='button'
             variant={isActive("/") ? "active" : "default"}
             width="100%"
           >
@@ -22,6 +23,7 @@ const NavBar: React.FC = () => {
         </Link>
         <Link href="/mystore" className="w-full flex justify-center group">
           <Button
+            type='button'
             variant={isActive("/mystore") ? "active" : "default"}
             width="100%"
           >
@@ -33,6 +35,7 @@ const NavBar: React.FC = () => {
       <div className="mt-auto w-full flex justify-center group">
         <Link href="/signin" className="w-full flex justify-center">
           <Button
+            type='button'
             variant={isActive("/signin") ? "active" : "hover"}
             width="100%"
           >

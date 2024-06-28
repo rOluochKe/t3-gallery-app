@@ -6,7 +6,7 @@ export default function Signin() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <Heading title='Sign In' />
-      <Button variant="active">Connect with Google</Button>
+      <Button type='button' variant="active">Connect with Google</Button>
     </div>
   );
 }

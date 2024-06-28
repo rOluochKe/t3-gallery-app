@@ -1,6 +1,6 @@
 import React from 'react';
-import UserAvatar from './UserAvatar';
-import LikeIcon from './LikeIcon';
+import UserAvatar from '~/app/_components/UserAvatar';
+import LikeIcon from '~/app/_components/LikeIcon';
 import Image from 'next/image';
 
 interface PictureCardProps {

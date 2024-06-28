@@ -9,7 +9,9 @@ const LikeIcon: React.FC<LikeIconProps> = ({ liked, onClick }) => {
   return (
     <svg
       onClick={onClick}
-      className={`h-6 w-6 ${liked ? 'text-secondary fill-current' : 'text-transparent stroke-light-border'}`}
+      role="button"
+      tabIndex={0}
+      className={`h-6 w-6 ${liked ? 'text-secondary fill-current' : 'text-transparent fill-current'}`}
       viewBox="0 0 24 24"
     >
       {liked ? (

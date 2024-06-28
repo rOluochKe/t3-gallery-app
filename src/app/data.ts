@@ -6,10 +6,7 @@ export const imageContents = [
     description: "This is a sample description",
     userName: "John Doe",
     userAvatarText: "J",
-    liked: true,
-    alt: "image name",
-    width: 266,
-    height: 260
+    liked: true
   },
   {
     id: 2,
@@ -18,10 +15,7 @@ export const imageContents = [
     description: "This is a sample description",
     userName: "John Doe",
     userAvatarText: "J",
-    liked: false,
-    alt: "image name",
-    width: 266,
-    height: 260
+    liked: false
   },
   {
     id: 3,
@@ -30,10 +24,7 @@ export const imageContents = [
     description: "This is a sample description",
     userName: "John Doe",
     userAvatarText: "J",
-    liked: true,
-    alt: "image name",
-    width: 266,
-    height: 260
+    liked: true
   },
   {
     id: 4,
@@ -42,10 +33,7 @@ export const imageContents = [
     description: "This is a sample description",
     userName: "John Doe",
     userAvatarText: "J",
-    liked: false,
-    alt: "image name",
-    width: 266,
-    height: 260
+    liked: false
   },
   {
     id: 5,
@@ -54,10 +42,7 @@ export const imageContents = [
     description: "This is a sample description",
     userName: "John Doe",
     userAvatarText: "J",
-    liked: true,
-    alt: "image name",
-    width: 266,
-    height: 260
+    liked: true
   },
   {
     id: 6,
@@ -66,10 +51,7 @@ export const imageContents = [
     description: "This is a sample description",
     userName: "John Doe",
     userAvatarText: "J",
-    liked: false,
-    alt: "image name",
-    width: 266,
-    height: 260
+    liked: false
   },
   {
     id: 7,
@@ -78,9 +60,6 @@ export const imageContents = [
     description: "This is a sample description",
     userName: "John Doe",
     userAvatarText: "J",
-    liked: true,
-    alt: "image name",
-    width: 266,
-    height: 260
+    liked: true
   },
 ]

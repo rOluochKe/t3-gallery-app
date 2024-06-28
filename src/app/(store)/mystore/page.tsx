@@ -44,9 +44,7 @@ export default function MyStore() {
             userName={content.userName}
             userAvatarText={content.userAvatarText}
             liked={content.liked}
-            alt={content.alt}
-            width={content.width}
-            height={content.height}
+            alt={content.title}
           />
         ))}
       </div>

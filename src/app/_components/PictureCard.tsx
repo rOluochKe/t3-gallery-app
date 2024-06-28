@@ -11,8 +11,6 @@ interface PictureCardProps {
   userAvatarText: string;
   liked: boolean;
   alt: string;
-  width: number;
-  height: number;
   onLike?: () => void;
 }
 
@@ -24,8 +22,6 @@ const PictureCard: React.FC<PictureCardProps> = ({
   userAvatarText,
   liked,
   alt,
-  width,
-  height,
   onLike,
 }) => {
   return (
@@ -33,8 +29,8 @@ const PictureCard: React.FC<PictureCardProps> = ({
       <div className="relative w-full h-64">
         <Image
           src={imageUrl}
-          width={width}
-          height={height}
+          width={266}
+          height={260}
           alt={alt}
           className="object-cover w-full h-full rounded-lg"
         />

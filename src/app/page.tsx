@@ -44,9 +44,7 @@ export default function Home() {
             userName={content.userName}
             userAvatarText={content.userAvatarText}
             liked={content.liked}
-            alt={content.alt}
-            width={content.width}
-            height={content.height}
+            alt={content.title}
           />
         ))}
       </div>
